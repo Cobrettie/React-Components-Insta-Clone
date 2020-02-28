@@ -26,10 +26,10 @@ const Post = props => {
         />
       </div>
       <LikeSection />
-      <CommentSection
+      {/* <CommentSection
         postId={props.post.imageUrl}
         comments={props.post.comments}
-      />
+      /> */}
     </div>
   );
 };
