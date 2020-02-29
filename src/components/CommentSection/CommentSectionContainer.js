@@ -8,15 +8,15 @@ import dummyData from '../../dummy-data';
 
 const CommentSection = props => {
   // Add state for the comments
-  const [comment, setComment] = useState(dummyData[0].comments);
+  // const [comment, setComment] = useState(.comments);
 
-  console.log(comment);
+  console.log('comments', props.comments);
 
   return (
     <div>
       {/* map through the comments data and return the Comment component */}
-      {comment.map(comment => {
-        <Comment comment={comment} />
+      {props.comments.map(item => {
+        return <Comment comment={item} />
       })}
       <CommentInput />
     </div>
@@ -24,10 +24,3 @@ const CommentSection = props => {
 };
 
 export default CommentSection;
-
-
-
-
-
-
-// left off trying to get comments to render to web page
