@@ -7,7 +7,6 @@ import "./Posts.css";
 import dummyData from '../../dummy-data';
 
 const PostsPage = () => {
-  // set up state for your data
   const [post, setPost] = useState(dummyData);
   
   return (
