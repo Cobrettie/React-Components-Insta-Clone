@@ -13,6 +13,10 @@
 .search-form input {
   text-align: center;
   color: #262626;
+  background-color: #fafafa;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 14px;
 }
 .image-wrapper {
   height: 50px;
@@ -20,20 +24,23 @@
   align-items: center;
 }
 
-.logo-image {
-  height: 100%;
-}
-
 .iconMain {
-  font-size: 32px;
+  font-size: 28px;
   border-right: 1px solid black;
   padding-right: 20px;
+  cursor: pointer;
 }
 
 .logoText {
   font-family: 'Grand Hotel', sans-serif;
-  font-size: 32px;
-  margin-left: 20px;
+  font-size: 28px;
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+.customIcons {
+  font-size: 28px;
+  cursor: pointer;
 }
 
 .social-wrapper {
