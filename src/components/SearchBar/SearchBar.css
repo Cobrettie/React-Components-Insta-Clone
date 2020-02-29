@@ -16,10 +16,24 @@
 }
 .image-wrapper {
   height: 50px;
+  display: flex;
+  align-items: center;
 }
 
 .logo-image {
   height: 100%;
+}
+
+.iconMain {
+  font-size: 32px;
+  border-right: 1px solid black;
+  padding-right: 20px;
+}
+
+.logoText {
+  font-family: 'Grand Hotel', sans-serif;
+  font-size: 32px;
+  margin-left: 20px;
 }
 
 .social-wrapper {
